@@ -1,0 +1,219 @@
+/* CSS Document */
+body{
+	background-image: url(../img/23030887_1743474395708582_2035121558_o.jpg);
+}
+#content{
+	position: absolute;
+	min-height: 50%;
+	width: 80%;
+	top: 20%;
+	left: 5%;
+	
+	}
+	
+#titulo{
+	width: 95%;
+	border: 3px outset #218FD5;
+	text-align: center;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	margin-top: 2.5%;
+	margin-bottom: 5px;
+	border-radius: 9px;
+	background-color: #666666;
+	color: #F7F7F7;
+	background-image: -webkit-linear-gradient(270deg,rgba(163,163,163,1.00) 0%,rgba(108,108,108,1.00) 9.33%,rgba(92,92,92,1.00) 28.50%);
+	background-image: -moz-linear-gradient(270deg,rgba(163,163,163,1.00) 0%,rgba(108,108,108,1.00) 9.33%,rgba(92,92,92,1.00) 28.50%);
+	background-image: -o-linear-gradient(270deg,rgba(163,163,163,1.00) 0%,rgba(108,108,108,1.00) 9.33%,rgba(92,92,92,1.00) 28.50%);
+	background-image: linear-gradient(180deg,rgba(163,163,163,1.00) 0%,rgba(108,108,108,1.00) 9.33%,rgba(92,92,92,1.00) 28.50%);
+}
+#contenido{
+	width: 95%;
+	/*border: 2px solid #0EBEE3;*/
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	margin-bottom: 12px;
+	
+	
+}
+#entrada{
+	width: 100%;
+	/*border: 2px solid #13E344;*/
+	display: inline-block;
+	/*margin-bottom: 6px;	*/
+	
+	
+}
+#datos,#intrucciones {
+	display: inline-block;
+}
+#datos{
+	width: 50%;
+	/*border: 2px solid #9413E0;*/
+	/*padding: 8px;*/
+	display: inline-block;
+}
+#datTabla{
+	position: relative;
+	float: right;
+	border: 3px outset #218FD5;
+	width: 50%;
+	border-radius: 9px;
+	background-color: #6C6C6C;
+	color: #F7F7F7;
+	background-image: -webkit-linear-gradient(270deg,rgba(163,163,163,1.00) 0%,rgba(108,108,108,1.00) 9.33%,rgba(92,92,92,1.00) 28.50%);
+	background-image: -moz-linear-gradient(270deg,rgba(163,163,163,1.00) 0%,rgba(108,108,108,1.00) 9.33%,rgba(92,92,92,1.00) 28.50%);
+	background-image: -o-linear-gradient(270deg,rgba(163,163,163,1.00) 0%,rgba(108,108,108,1.00) 9.33%,rgba(92,92,92,1.00) 28.50%);
+	background-image: linear-gradient(180deg,rgba(163,163,163,1.00) 0%,rgba(108,108,108,1.00) 9.33%,rgba(92,92,92,1.00) 28.50%);
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+#datPrin{
+	border: 3px outset #218FD5;
+	width: 49%;
+	margin-right: 1%;
+	border-radius: 9px;
+	background-color: #6C6C6C;
+	color: #F7F7F7;
+	background-image: -webkit-linear-gradient(270deg,rgba(163,163,163,1.00) 0%,rgba(108,108,108,1.00) 9.33%,rgba(92,92,92,1.00) 28.50%);
+	background-image: -moz-linear-gradient(270deg,rgba(163,163,163,1.00) 0%,rgba(108,108,108,1.00) 9.33%,rgba(92,92,92,1.00) 28.50%);
+	background-image: -o-linear-gradient(270deg,rgba(163,163,163,1.00) 0%,rgba(108,108,108,1.00) 9.33%,rgba(92,92,92,1.00) 28.50%);
+	background-image: linear-gradient(180deg,rgba(163,163,163,1.00) 0%,rgba(108,108,108,1.00) 9.33%,rgba(92,92,92,1.00) 28.50%);
+	padding-left: 13px;
+	padding-right: 0px;
+	padding-bottom: 15px;
+	
+}
+#datPrin,#datTabla{
+	display: inline-block;
+	height: 34%;
+	min-height: 390px;
+	
+}
+#intrucciones{
+	width: 49.5%;
+	border: 3px outset #218FD5;
+	position: relative;
+	float: right;
+	border-radius: 9px;
+	background-color: #7F7C7C;
+	font-weight: bold;
+	background-image: -webkit-linear-gradient(270deg,rgba(163,163,163,1.00) 0%,rgba(108,108,108,1.00) 9.33%,rgba(92,92,92,1.00) 28.50%);
+	background-image: -moz-linear-gradient(270deg,rgba(163,163,163,1.00) 0%,rgba(108,108,108,1.00) 9.33%,rgba(92,92,92,1.00) 28.50%);
+	background-image: -o-linear-gradient(270deg,rgba(163,163,163,1.00) 0%,rgba(108,108,108,1.00) 9.33%,rgba(92,92,92,1.00) 28.50%);
+	background-image: linear-gradient(180deg,rgba(163,163,163,1.00) 0%,rgba(108,108,108,1.00) 9.33%,rgba(92,92,92,1.00) 28.50%);
+	padding-left: 15px;
+	padding-bottom: 15px;
+	
+}
+#salida{
+	width: 100%;
+	border: 3px outset #218FD5;
+	border-radius: 9px;
+	
+	background-color: #6C6C6C;
+	color: #F7F7F7;
+	
+	background-image: -webkit-linear-gradient(270deg,rgba(163,163,163,1.00) 0%,rgba(108,108,108,1.00) 9.33%,rgba(92,92,92,1.00) 28.50%);
+	background-image: -moz-linear-gradient(270deg,rgba(163,163,163,1.00) 0%,rgba(108,108,108,1.00) 9.33%,rgba(92,92,92,1.00) 28.50%);
+	background-image: -o-linear-gradient(270deg,rgba(163,163,163,1.00) 0%,rgba(108,108,108,1.00) 9.33%,rgba(92,92,92,1.00) 28.50%);
+	background-image: linear-gradient(180deg,rgba(163,163,163,1.00) 0%,rgba(108,108,108,1.00) 9.33%,rgba(92,92,92,1.00) 28.50%);
+}
+#tablaDatos{
+	border-style: none;
+	width: 100%;
+}
+
+#subnets{
+	
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+#BT{
+	/*margin-top: 6px;*/	
+}
+tr{
+	/*border: 1px solid #12ECAC;*/
+
+}
+h1{
+	color: #3AACF4;
+	
+	font-weight: 550;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+li,p{
+	color: #FFFFFF;	
+}
+.dp{
+	color: #FFFFFF;
+	text-align: right;
+	font-size: 130%;
+	font-weight: bold;
+	text-indent: 0px;
+	vertical-align: middle;
+}
+.dat{
+	counter-reset: inherit;
+	width:100%;
+}
+.textbox{
+	background-color: #7A7A7A;
+	color: #FFFFFF;
+	font-weight: bold;
+	border-radius: 8px;
+	border: 3px inset #1C64A7;
+	width: 80%;
+}
+.textbox1{
+	width: 100%;
+	background-color: #7A7A7A;
+	color: #FFFFFF;
+	font-weight: bold;
+	border-radius: 3px;
+	border: 1px outset #1D67CC;
+	text-align: center;
+}
+
+
+/* Circulo creciendo desde el centro */
+
+.butt {
+	border: none;
+	background-color: #2182C0;
+	color: #f2f2f2;
+	padding: 5px;
+	font-size: 18px;
+	border-radius: 5px;
+	position: relative;
+	box-sizing: border-box;
+	transition: all 500ms ease;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.butt:hover {
+	border: none;
+	color: #3a7999;
+	box-shadow: inset 0 0 0 3px #3a7999;
+	background-color: #FFFFFF;
+}
+
+         
+
+
+.datsubn{
+	width: 100%;
+}
+	.selected{
+		cursor: pointer;
+	}
+	.selected:hover{
+		background-color: #0585C0;
+		color: white;
+	}
+	.seleccionada{
+		background-color: #0585C0;
+		color: white;
+	}

@@ -1,0 +1,111 @@
+<!Doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <title> Calculadora VLSM</title>
+  <script src="js/jquery-2.1.1.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/tabla.js"></script>
+  <script type="text/javascript" src="js/Red.js"></script>
+<script type="text/javascript" src="js/Subred.js"></script>
+<script type="text/javascript" src="js/Captura.js"></script>
+
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <section id="titulo">
+    <h1>Calculadora VLSM</h1>
+  </section>
+
+  <section id="contenido">
+    <section id="entrada">
+      <section id="datos">
+       <section id="datPrin">
+       	<h1>Datos principales</h1>
+        <table id="tablaDatos">
+          <tr>
+            <td>
+              <p class="dp">Red:</p>
+            </td>
+            <td class="dat">
+              <input type="text" id="network" class="textbox" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p class="dp">Mascara:</p>
+            </td>
+            <td class="dat">
+              <input type="text" id="mask" class="textbox"/>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p class="dp">No. subredes:</p>
+            </td>
+            <td class="dat">
+              <input type="text" id="numsubnets" class="textbox"/>
+            </td>
+          </tr>
+        </table>
+       <input type="button" value="Continuar"  onClick="tablaDatos()" class="butt" id="cont" />
+        <section id="BT">
+        	
+        </section>
+       </section>
+       <section id="datTabla">
+      	 	<h1>Datos de subredes</h1>
+       	 <table id="subnets">
+
+        </table>
+       </section>
+       
+
+      </section>
+
+      <section id="intrucciones">
+        <h1>Instrucciones</h1>
+        <p>Datos iniciales</p>
+        <ul>
+        	<li>Inicialmente necesita poner la dirección de la red</li>
+        	<li>Después es necesario poner la máscara de la red</li>
+        	<li>Finalmente es necesario que ingrese la cantidad de subredes que desea para esa red, de este modo se generará las tabla con el número de campos necesarios</li>
+        	<li>Después de haber ingresado y revisado los datos principales, de click en el botón continuar</li>
+        </ul>
+        <p>Ingresar datos para las subredes</p>
+        <ul>
+        	<li>Continúe agregando el nombre y la cantidad de direcciones necesarias para cada subred. Inicialmente aparecen unos nombres predeterminados los cuales puede cambiar</li>
+        	<li>Después de haber llenado la tabla de subredes, de click en el botón calcular</li>
+        	<li>Los resultados aparecerán el la tabla que se encuentra en la parte inferior de la tabla</li>
+        	
+        </ul>
+        
+      </section>
+    </section>
+
+    <section id="salida">
+      <h1>salida</h1>
+      
+      
+      <table id="tabla" class="table table-bordered">
+        <thead>
+          <tr id="encabezado">
+            <td>Nombre</td>
+            <td>Tamaño</td>
+            <td>Direccion</td>
+            <td>Mascara</td>
+            <td>Broadcast</td>
+          </tr>
+        </thead>
+      </table>
+    </section>
+
+
+  </section>
+   
+</body>
+
+</html>
